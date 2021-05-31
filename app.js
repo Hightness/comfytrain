@@ -2,7 +2,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
-const bcrypt=require("bcrypt");
 const md5=require("md5");
 const app = express();
 const salvaId = require(__dirname + "/salvaId.js");
